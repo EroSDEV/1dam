@@ -1,4 +1,4 @@
-<!ELEMENT poem (poema+)>
+<!ELEMENT poemas (poema+)>
 <!ELEMENT poema (título, verso+)>
 <!ATTLIST poema date CDATA #IMPLIED>
 <!ATTLIST poema location CDATA #IMPLIED>

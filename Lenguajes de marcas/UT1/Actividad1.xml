@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+    Take from software
+
+    Video game shop
+    Employees
+    Headquarters
+-->
+
+<BloomGames>
+    <Shop location="zoneA">
+        <Products>
+            <Games genre="Action">
+                <Game id="1">
+                    <name>God of Yards</name>
+                    <price>4,99</price>
+                    <sales>2</sales>
+                </Game>
+            </Games>
+            <Games genre="Adventure">
+                <Game id="2">
+                    <name>Uncharted</name>
+                    <price>7,99</price>
+                    <sales>5</sales>
+                </Game>
+            </Games>
+            <Games genre="FPS">
+                <Game id="3">
+                    <name>Escape from Latam</name>
+                    <price>14,99</price>
+                    <sales>20</sales>
+                </Game>
+                <Game id="15">
+                    <name>Half Life 3</name>
+                    <price>9,99</price>
+                    <sales>20</sales>
+                </Game>
+            </Games>
+            <Games company="Bugisoft">
+                <Game id="4">
+                    <name>Assasins Feed</name>
+                    <price>10,99</price>
+                    <sales>3</sales>
+                </Game>
+            </Games>
+            <Games company="FromSoftware">
+                <Game id="5">
+                    <name>Dark Souls</name>
+                    <price>60,99</price>
+                    <sales>2M</sales>
+                </Game>
+            </Games>
+        </Products>
+        
+        <Employees>
+            <id sec="10">
+                <name>Aridane Gaviria</name>
+            <mail>ari.support@bloomgames.es</mail>
+            </id>
+            <id sec="10">
+                <name>Jose Ricardo</name>
+                <mail>jose.support@bloomgames.es</mail>
+            </id>
+            <id sec="10">
+                <name>Alejandro Alameda</name>
+                <mail>ale.support@bloomgames.es</mail>
+            </id>
+        </Employees>
+    </Shop>
+
+    <Headquarter>
+        <Location>Madrid</Location>
+        <Address>C/ Córcega brava, 2</Address>
+        <Phone>902000000</Phone>
+    </Headquarter>
+    
+</BloomGames>

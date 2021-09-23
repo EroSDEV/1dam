@@ -9,7 +9,7 @@
 -->
 
 <BloomGames>
-    <Shop location="zoneA">
+    <Shop location="Madrid">
         <Products>
             <Games genre="Action">
                 <Game id="1">
@@ -70,9 +70,9 @@
     </Shop>
 
     <Headquarter>
-        <Location>Madrid</Location>
+        <City>Madrid</City>
         <Address>C/ Córcega brava, 2</Address>
         <Phone>902000000</Phone>
     </Headquarter>
-    
+
 </BloomGames>

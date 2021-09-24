@@ -1,0 +1,25 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!DOCTYPE Alumnos SYSTEM "Actividad3.dtd">
+
+<Alumnos>
+    <Alumno id="1">
+        <Nombre>Pepe</Nombre>
+        <Apellido1>Pérez</Apellido1>
+        <Apellido2>Rodríguez</Apellido2>
+        <Edad>33</Edad>
+        <Modulos>
+            <Modulo>LND</Modulo>
+            <Modulo>LNT</Modulo>
+            <Modulo>FOL</Modulo>
+            <Modulo>PRO</Modulo>
+            <Modulo>ETS</Modulo>
+            <Modulo>GTB</Modulo>
+            <Modulo>SSF</Modulo>
+        </Modulos>
+        <Cursos>
+            <Curso>2010</Curso>
+            <Curso>2011</Curso>
+            <Curso>2012</Curso>
+        </Cursos>
+    </Alumno>
+</Alumnos>

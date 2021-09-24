@@ -1,0 +1,11 @@
+<!ELEMENT Alumnos (Alumno+)>
+<!ELEMENT Alumno (Nombre, Apellido1, Apellido2, Edad, Modulos+, Cursos+)>
+<!ELEMENT Nombre (#PCDATA)>
+<!ELEMENT Apellido1 (#PCDATA)>
+<!ELEMENT Apellido2 (#PCDATA)>
+<!ELEMENT Edad (#PCDATA)>
+<!ELEMENT Modulos (Modulo+)>
+<!ELEMENT Modulo (#PCDATA)>
+<!ELEMENT Cursos (Curso+)>
+<!ELEMENT Curso (#PCDATA)>
+<!ATTLIST Alumno id CDATA #REQUIRED>
